@@ -14,7 +14,7 @@
 
       androidTestCompile('com.android.support:support-annotations:26.1.0') {
         force = true
-    }
+        }
 
 
 - 保持更新...
