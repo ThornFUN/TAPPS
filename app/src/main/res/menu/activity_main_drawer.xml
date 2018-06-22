@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="图库" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_weather"
+            android:title="天气" />
+
+        <item
+            android:id="@+id/nav_show"
+            android:icon="@drawable/ic_show"
+            android:title="视频" />
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@drawable/ic_music"
+            android:title="音乐" />
+
+        <item
+            android:id="@+id/nav_read"
+            android:icon="@drawable/ic_read"
+            android:title="读书" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="发消息" />
+    </group>
+
+
+</menu>
